@@ -43,7 +43,7 @@ class _UserImagePickerState extends State<UserImagePicker> {
             icon: const Icon(Icons.image),
             label: Text(
               'Add Image',
-              style: TextStyle(color: Theme.of(context).primaryColor),
+              style: TextStyle(color: Theme.of(context).colorScheme.primary),
             ))
       ],
     );
